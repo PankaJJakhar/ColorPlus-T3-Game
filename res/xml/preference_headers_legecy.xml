@@ -1,0 +1,18 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference 
+        android:title="@string/prefs_category_one"
+        android:summary="@string/prefs_summ_category_one"  >
+        <intent 
+            android:targetPackage="com.example.prefs"
+            android:targetClass="com.example.prefs.SettingsActivity"
+            android:action="com.example.prefs.PREFS_ONE" />
+    </Preference>
+    <!-- <Preference 
+        android:title="@string/prefs_category_two"
+        android:summary="@string/prefs_summ_category_two" >
+        <intent 
+            android:targetPackage="com.example.prefs"
+            android:targetClass="com.example.prefs.SettingsActivity"
+            android:action="com.example.prefs.PREFS_TWO" />
+    </Preference> -->
+</preference-headers>

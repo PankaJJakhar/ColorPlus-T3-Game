@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tic-Tac-Toe</string>
+    <string name="settings">Settings</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="start">PLAY</string>
+    <string name="prefs_category_one">Category One</string>
+    <string name="prefs_summ_category_one">Summ Category One</string>
+    <string name="prefs_category_two">Category Two</string>
+    <string name="prefs_summ_category_two">Summ Category Two</string>
+    <string name="custom_game_settings">Custom Game Settings?</string>
+    <string name="custom_game_settings_summ">If Custom Settings mode is disabled then Computer Mode(Second Player) is on by default with playing grid of size 5x5!</string>
+    <string name="computer_mode_message">Check mark this option if you want to play against computer, uncheck it otherwise!</string>
+    <string name="computer_mode_title">Want to play against computer?</string>
+    <string name="game_grid_size">Grid Size(NxN)</string>
+    <string name="select_size_NxN">Select Playing Grid Size(3x3, 4x4, 5x5, 6x6 or 7x7).</string>
+    <string name="default_grid_size">5</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- Reset Dialog Message Strings. -->
+    <string name="reset_game_dialog_title">Reset Game?</string>
+    <string name="reset_game_dialog_message">This will reset the Game to initial state!</string>
+    <string name="reset_game_dialog_confirm">Confirm</string>
+    <string name="reset_game_dialog_cancel">Cancel</string> 
+
+    <string name="grid_size_select">Select Grid Size(NxN)</string>
+</resources>

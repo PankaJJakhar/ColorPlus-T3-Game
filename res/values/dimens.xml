@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="inner_circle_stroke_width">10dp</dimen>
+    <dimen name="outer_circle_stroke_width">2dp</dimen>
+    <dimen name="grid_paint_stroke_width">2dp</dimen>
+    <dimen name="grid_cell_stroke_width">1dp</dimen>
+    <dimen name="grid_cell_text_size">200dp</dimen>
+    
+    <dimen name="text_paint_stroke_width">1dp</dimen>
+    <dimen name="text_paint_text_size">15dp</dimen>
+    <dimen name="info_text_padding">20dp</dimen>
+    
+    <!-- Home Screen. -->
+    <dimen name="inner_circle_stroke_width_home">15dp</dimen>
+    <dimen name="outer_circle_stroke_width_home">15dp</dimen>
+    <dimen name="inner_circle_radius">115dp</dimen>
+    <dimen name="outer_circle_radius">130dp</dimen>
+    
+    <dimen name="you_text_padding">50dp</dimen>
+    <dimen name="computer_text_padding">100dp</dimen>
+    <dimen name="you_text_info_padding">50dp</dimen>
+    <dimen name="computer_text_info_padding">100dp</dimen>
+    <dimen name="text_padding_left">15dp</dimen>
+    
+</resources>

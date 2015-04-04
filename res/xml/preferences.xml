@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+	<CheckBoxPreference
+        android:key="custom_settings"
+        android:title="@string/custom_game_settings"
+        android:summary="@string/custom_game_settings_summ"
+        android:defaultValue="true" />
+	
+	<CheckBoxPreference
+	    android:dependency="custom_settings"
+        android:key="computer_mode"
+        android:title="@string/computer_mode_title"
+        android:summary="@string/computer_mode_message"
+        android:defaultValue="true" />
+	
+    <ListPreference
+        android:dependency="custom_settings"
+        android:key="@string/game_grid_size"
+        android:title="@string/game_grid_size"
+        android:summary="@string/select_size_NxN"
+        android:dialogTitle="@string/select_size_NxN"
+        android:entries="@array/game_grid_size_entries"
+        android:entryValues="@array/pref_syncConnectionTypes_values"
+        android:defaultValue="@string/default_grid_size" />
+
+   
+	<!-- <ListPreference
+        android:defaultValue="@string/grid_size_select"
+        android:dialogTitle="@string/grid_size_select"
+        android:entries="@array/game_grid_size_entries"
+        android:entryValues="@array/game_grid_size_entries"
+        android:key="grid_size"
+        android:title="@string/grid_size_select" /> -->
+	
+</PreferenceScreen>
