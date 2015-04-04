@@ -11,3 +11,5 @@ modified: 2015 April 04
 ---
 Color based Tic-Tac-Toe game which allows user to configure NxN(3x3 to 7x7) size grid to play. 
 
+##Google Play Download Link
+<a href="https://play.google.com/store/apps/details?id=master.jakhar.colorplus">Download From Google Play Store</a>
